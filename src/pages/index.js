@@ -14,10 +14,12 @@ const IndexPage = () => {
 
     setTimeout(() => {
       window.location.href = "https://forms.gle/QyFkLHDaqwsosUC4A"
-    }, 4000);
+    }, 4000)
   }
   return (
     <Layout>
+      <audio style={{ "height": "0px" }} src={sound} preload='true'>
+      </audio>
       <SEO title="Home"/>
 
       <div style={{
