@@ -9,13 +9,13 @@ import sound from "../sound.mp3"
 import kimchi from "../images/kimchi-small.png"
 import $ from "jquery"
 
-import PatternBackground from '../components/pattern-background';
+import PatternBackground from "../components/pattern-background"
 
 
 const IndexPage = () => {
   useEffect(() => {
-    new PatternBackground($('.pattern-background'))
-  });
+    new PatternBackground($(".pattern-background"))
+  })
 
   const click = () => {
     var audio = new Audio(sound)
@@ -33,15 +33,14 @@ const IndexPage = () => {
 
       <div style={{
         maxWidth: `570px`,
-        padding: '20px',
+        padding: "20px",
         margin: `auto`,
       }}>
-        <h1 style={{
+        <h3 style={{
           textAlign: `center`,
-        }}>De Blikkenopener!</h1>
-        <p>
-          Een awkward kookshow waar je tussen de soep en de patatten ook vanalles te weten komt!
-        </p>
+        }}>Een awkward kookshow waar je tussen de soep en de patatten ook vanalles te weten komt!
+        </h3>
+
         <p>
           Kan jij ook nooit volgen met kookshows? Frustreren die reeds voorgesneden groenten jou ook
           zo mateloos? Heb je achteraf wel gegeten maar niets bijgeleerd?
@@ -50,38 +49,30 @@ const IndexPage = () => {
           De Blikkenopener biedt soelaassalsa!
         </p>
         <p>
-          In de Blikkenopener nodigen we je uit voor een live kooksessie in de professionele
-          Zendelingen keuken. Tussen pot en pint kom je vanalles te weten over wat we klaarmaken en
-          daarnaast is het vooral gezellig samen koken. Simon bepaalt het menu, Esther voert uit,
-          Bram
-          filmt en Liesbeth last blikjes aan elkaar. Door Esthers minimale kennis en trage
-          snijtechniek ligt het niveau laag genoeg zodat iedereen thuis mee kan volgen.
+          De Blikkenopener is een live kookshow vanuit de professionele Zendelingen keuken. Simon
+          bepaalt het menu, Esther voert uit, Bram filmt en Liesbeth verzorgt de scenografie.
+          Tussendoor kom je vanalles te weten over wat we klaarmaken en daarnaast is het vooral
+          gezellig samen koken.
         </p>
         <p>
-          We koken in real time dus je kan vanuit je eigen keuken thuis gewoon meedoen op het ritme
-          van een absoluut keuken groentje met de glam van een keukenprinses.
+          Door Esthers minimale kennis en trage snijtechniek ligt het niveau laag genoeg zodat
+          iedereen thuis mee kan volgen. Als de thuiskoks tijdens de show toch nog een vraag hebben
+          kunnen ze die in realtime aan Simon stellen.
         </p>
         <p>
-          Tussendoor verbaast Chefkok Simon zijn publiek met ongezien interessante weetjes over wat
-          we
-          aan het koken zijn! Onze creatieve geesten Bram en Liesbeth zorgen ervoor dat de sfeer
-          goed
-          zit en we geen enkele detail over het hoofd zien!
+          <b>Volgende kookshow:</b>
+          Zaterdag 11/04 tussen 13u en 15u30: KIMMMMMMMCHI
         </p>
-        <p>
-          Als de thuiskoks tijdens de show toch nog een vraag hebben kunnen ze die reallife aan
-          Simon
-          stellen. De hele groep luisteren mee en inzichten worden gedeeld. Zo groeit de
-          Blikkenopener
-          community. Want koken met de Blikkenopener is koken met vrienden.
-        </p>
-
-        <button style={{ "margin": "auto" }} className={"button -red center"}
-                onClick={click}>Inschrijven!
+        <button style={{ "margin": "auto" }}
+                className={"button -red center"}
+                onClick={click}>Ik kook mee!!
         </button>
 
-        <div style={{ "height": "100px" }}>
-        </div>
+        <div style={{ "height": "30px" }}></div>
+
+        <p>
+          Want koken met de Blikkenopener is koken met vrienden.
+        </p>
       </div>
 
       <div className="pattern-background"
