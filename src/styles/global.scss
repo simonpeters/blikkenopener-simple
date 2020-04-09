@@ -237,3 +237,15 @@ a, a:visited {
   color: #FE8CDF;
   background: var(--color-flower);
 }
+
+.pattern-background,
+.pattern-background canvas {
+  z-index: -1;
+  position: fixed;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
