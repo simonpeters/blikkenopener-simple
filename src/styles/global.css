@@ -4,6 +4,7 @@
   --color-grass: #3dd28d;
   --color-snow: #FFFFFF;
   --color-salmon: #F32C52;
+  --color-red: red;
   --color-sun: #feee7d;
   --color-alge: #7999a9;
   --color-flower: #353866;
@@ -143,6 +144,10 @@ a, a:visited {
 .button.-salmon {
   color: var(--color-snow);
   background: var(--color-salmon); }
+
+.button.-red {
+  color: var(--color-snow);
+  background: var(--color-red); }
 
 .button.-sun {
   color: #f15c5c;

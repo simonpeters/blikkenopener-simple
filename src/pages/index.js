@@ -23,7 +23,8 @@ const IndexPage = () => {
       <SEO title="Home"/>
 
       <div style={{
-        maxWidth: `550px`,
+        maxWidth: `570px`,
+        padding: '20px',
         margin: `auto`,
       }}>
         <h1 style={{
@@ -66,7 +67,7 @@ const IndexPage = () => {
           community. Want koken met de Blikkenopener is koken met vrienden.
         </p>
 
-        <button style={{ "margin": "auto" }} className={"button -green center"}
+        <button style={{ "margin": "auto" }} className={"button -red center"}
                 onClick={click}>Inschrijven!
         </button>
 
