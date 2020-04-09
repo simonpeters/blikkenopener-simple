@@ -35,6 +35,7 @@ const IndexPage = () => {
         maxWidth: `570px`,
         padding: "20px",
         margin: `auto`,
+        background: 'rgba(255,255,255,0.8)',
       }}>
         <h3 style={{
           textAlign: `center`,
@@ -60,8 +61,7 @@ const IndexPage = () => {
           kunnen ze die in realtime aan Simon stellen.
         </p>
         <p>
-          <b>Volgende kookshow:</b>
-          Zaterdag 11/04 tussen 13u en 15u30: KIMMMMMMMCHI
+          <b>Volgende kookshow:</b> Zaterdag 11/04 tussen 13u en 15u30: KIMMMMMMMCHI
         </p>
         <button style={{ "margin": "auto" }}
                 className={"button -red center"}
