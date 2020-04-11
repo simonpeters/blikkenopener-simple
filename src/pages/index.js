@@ -32,47 +32,12 @@ const IndexPage = () => {
       <SEO title="Home"/>
 
       <div style={{
-        maxWidth: `570px`,
+        width: `570px`,
         padding: "20px",
         margin: `auto`,
-        background: 'rgba(255,255,255,0.8)',
       }}>
-        <h3 style={{
-          textAlign: `center`,
-        }}>Een awkward kookshow waar je tussen de soep en de patatten ook vanalles te weten komt!
-        </h3>
 
-        <p>
-          Kan jij ook nooit volgen met kookshows? Frustreren die reeds voorgesneden groenten jou ook
-          zo mateloos? Heb je achteraf wel gegeten maar niets bijgeleerd?
-        </p>
-        <p>
-          De Blikkenopener biedt soelaassalsa!
-        </p>
-        <p>
-          De Blikkenopener is een live kookshow vanuit de professionele Zendelingen keuken. Simon
-          bepaalt het menu, Esther voert uit, Bram filmt en Liesbeth verzorgt de scenografie.
-          Tussendoor kom je vanalles te weten over wat we klaarmaken en daarnaast is het vooral
-          gezellig samen koken.
-        </p>
-        <p>
-          Door Esthers minimale kennis en trage snijtechniek ligt het niveau laag genoeg zodat
-          iedereen thuis mee kan volgen. Als de thuiskoks tijdens de show toch nog een vraag hebben
-          kunnen ze die in realtime aan Simon stellen.
-        </p>
-        <p>
-          <b>Volgende kookshow:</b> Zaterdag 11/04 tussen 13u en 15u30: KIMMMMMMMCHI
-        </p>
-        <button style={{ "margin": "auto" }}
-                className={"button -red center"}
-                onClick={click}>Ik kook mee!!
-        </button>
 
-        <div style={{ "height": "30px" }}></div>
-
-        <p>
-          Want koken met de Blikkenopener is koken met vrienden.
-        </p>
       </div>
 
       <div className="pattern-background"
