@@ -22,7 +22,7 @@ const IndexPage = () => {
     audio.play()
 
     setTimeout(() => {
-      window.location.href = "https://forms.gle/QyFkLHDaqwsosUC4A"
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSegPRrg8zvV36u56iL2dvwKlsKLgOrYuN_94MtVMy-LjIY2zg/viewform?usp=sf_link"
     }, 4000)
   }
   return (
