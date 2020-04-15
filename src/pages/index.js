@@ -2,7 +2,6 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import sound from "../sound.mp3"
@@ -29,6 +28,7 @@ const IndexPage = () => {
     <Layout>
       <audio style={{ "height": "0px" }} src={sound} preload='true'>
       </audio>
+
       <SEO title="Home"/>
 
       <div style={{
@@ -60,12 +60,13 @@ const IndexPage = () => {
           iedereen thuis mee kan volgen. Als de thuiskoks tijdens de show toch nog een vraag hebben
           kunnen ze die in realtime aan Simon stellen.
         </p>
+
         <p>
-          <b>Volgende kookshow:</b> Zaterdag 11/04 tussen 13u en 15u30: KIMMMMMMMCHI
+          <b>Volgende kookshow:</b> TBA!
         </p>
         <button style={{ "margin": "auto" }}
                 className={"button -red center"}
-                onClick={click}>Ik kook mee!!
+                onClick={click}>Hou me op de hoogte!
         </button>
 
         <div style={{ "height": "30px" }}></div>
